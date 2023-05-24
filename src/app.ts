@@ -124,3 +124,13 @@ const p = new Printer();
 
 const button = document.querySelector('button')!;
 button.addEventListener('click', p.showMessage);
+
+class Course {
+  title: string;
+  price: number;
+
+  constructor(t: string, p: number) {
+    this.title = t;
+    this.price = p;
+  }
+}
